@@ -1,0 +1,12 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [UserId]
+      ,[FirstName]
+      ,[LastName]
+      ,[Email]
+      ,[PhoneNo]
+      ,[Password]
+      ,[ConfirmPassword]
+      ,[Address]
+      ,[Role]
+      ,[Status]
+  FROM [CarWashTbl].[dbo].[Usertable]

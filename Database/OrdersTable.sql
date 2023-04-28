@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id]
+      ,[WashingInstructions]
+      ,[Date]
+      ,[status]
+      ,[packageName]
+      ,[price]
+      ,[city]
+      ,[pincode]
+  FROM [CarWashTbl].[dbo].[OrderTable]
